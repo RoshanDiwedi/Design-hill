@@ -107,6 +107,7 @@ gap:30px;
     background-size: contain;
     background-position: 0% 27px;
     background-attachment: fixed;
+    padding: 0 15px;
 }
 
 .title-row{
@@ -117,6 +118,7 @@ gap:30px;
 .start-content{
     padding-top: 50px;
     font-size: 17px;
+    text-align: center;
 }
 
 /* Pods Section */
@@ -133,6 +135,10 @@ gap:30px;
     /* transform: translateY(100px); */
     transition-property: opacity,transform;
     transition-timing-function: ease;
+    position: relative;
+    opacity: 0;
+    top:200px;
+
     /* transition-delay: 0; */
 }
 
@@ -257,32 +263,28 @@ gap:30px;
 .main-anim-col .image-parallel1 {
     width: 80%;
     position: absolute;
-    top: 156px;
+    top: 90px;
     left: -40px;
 }
 
 .main-anim-col .image-parallel3 {
     width: 80%;
     position: absolute;
-    top: 176px;
+    top: 150px;
     right: -55px;
 }
 
 .main-anim-col .image-parallel4{
     width: 30%;
     position: absolute;
-    top: 163px;
+    top: 110px;
     right: 165px;
 }
 
-#duck{
+#mobileImg{
     width: 30%;
-    top:220px;
-    left:20px;
-}
-
-#dummy{
-    min-height: 400px;
+    top:150px;
+    left:36px;
 }
 
 
