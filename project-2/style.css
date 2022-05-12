@@ -1,0 +1,104 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/* Root Css */
+:root{
+    --color-dark: #000;
+    --color-light: #fff;
+    --color-primary: #82BC3B;
+}
+
+/* global Css */
+*,::after ,::backdrop{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    color: var(--color-primary);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h4{
+    color: var(--color-primary);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    margin: 0 !important;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.btn:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+/* slider Section */
+.main-container .img-bg{
+    background-image: url('./images/tshirt.jpg');
+    padding: 200px 0;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#text-wrapper{
+    display: none;
+}
+
+.text-wrap-top{
+    transform: rotate(-47deg);
+    position: absolute;
+    right: 212px;
+    top: 154px;
+}
+
+
+.text-wrap-bottom h3{
+    font-size: 14px;
+}
+
+.text-wrap-bottom h4{
+    font-size: 8px;
+}
+
+
+.text-wrap-bottom{
+    transform: rotate(-17deg);
+    position: absolute;
+    right: 140px;
+    bottom: 71px;
+}
+
+
